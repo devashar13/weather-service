@@ -11,7 +11,7 @@
     "build": "./distribution/build"
   },
   "scripts": {
-    "test": "react-scripts test",
+    "test": "mocha",
     "start": "node app.js",
     "clean:build": "node_modules/.bin/rimraf $npm_package_config_distribution",
     "create:build": "node_modules/.bin/mkdirp $npm_package_config_build",
@@ -65,6 +65,8 @@
     "mongodb": "^2.2.5",
     "copyfiles": "1.2.x",
     "expect.js": "0.x.x",
+    "mochawesome": "^3.0.0",
+    "coffee-script": "^1.12.7",
     "faker": "4.1.x",
     "mkdirp": "0.5.x",
     "mocha": "2.5.x",
