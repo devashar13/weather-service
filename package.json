@@ -11,7 +11,7 @@
     "build": "./distribution/build"
   },
   "scripts": {
-    "test": "react-scripts test",
+    "test": "mocha",
     "start": "node server.js",
     "clean:build": "node_modules/.bin/rimraf $npm_package_config_distribution",
     "create:build": "node_modules/.bin/mkdirp $npm_package_config_build",
